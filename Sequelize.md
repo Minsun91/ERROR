@@ -9,3 +9,14 @@ npx sequelize db:migrate
 ```
 
 로 업데이트하면 문제 해결!
+
+
+### 2. triggerUncaughtException(err, true /* fromPromise */);  
+[ERR_ASSERTION]:Expected plain object, array or sequelize method in the options.where parameter  
+
+```
+code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '=='
+```
