@@ -32,7 +32,7 @@ merge는 원격 저장소와 로컬 저장소가 공통으로 가지고 있는 c
 원격 저장소에 있는 내용을 가져올 뿐만 아니라, 자동으로 로컬 저장소에 merge. 
 git pull  == git fetch + merge FETCH_HEAD
 
-> 해결하려면, 
+> 해결하려면 아래 두 방법 중 하나를 택한다.   
 git clone 명령어를 통해 원격 저장소를 복제해온다.   
 pull 명령어에 옵션을 추가해 강제로 pull 한다.    ```git pull origin (branchname) --allow-unrelated-histories```
 
