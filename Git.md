@@ -36,6 +36,23 @@ git pull  == git fetch + merge FETCH_HEAD
 git clone 명령어를 통해 원격 저장소를 복제해온다.   
 pull 명령어에 옵션을 추가해 강제로 pull 한다.    ```git pull origin (branchname) --allow-unrelated-histories```
 
+--
+
+### 현재 브랜치의 끝이 리모트 브랜치보다 뒤에 있으므로 업데이트가 거부되었습니다.  
+푸시하기 전에 ('git pull ...' 등 명령으로) 리모트 변경 사항을 포함하십시오.  
+자세한 정보는 'git push --help'의 "Note about fast-forwards' 부분을 참고하십시오.  
+
+이것도 정방향 에러와 번갈아서 나오는 단골 에러
+ㅗ 
+
+```
+git push -f -u origin <name of branch>
+```
+이걸로 하니 됐다. 
+
+<img width="612" alt="스크린샷 2022-08-17 05 59 53" src="https://user-images.githubusercontent.com/92393851/185049639-fb1f42ab-9dca-4621-b543-842003401ca7.png">
+
+https://stackoverflow.com/questions/20467179/git-push-rejected-non-fast-forward
 
 
-
+---
