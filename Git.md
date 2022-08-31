@@ -56,3 +56,10 @@ https://stackoverflow.com/questions/20467179/git-push-rejected-non-fast-forward
 
 
 ---
+
+### gitignore 적용
+
+이미 깃에 올라간 파일을 추후에 .gitignore에 추가하려고 하면 적용이 안된다!  
+숨기고 싶은 파일은 깃허브에서 지우고, 로컬는 있는 상태에서 .gitignore에 추가하고 add, commit, push 하면 숨겨진채로 잘 반영된다!  
+간단히 끝 ⭐️
+
