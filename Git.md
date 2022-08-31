@@ -65,6 +65,8 @@ https://stackoverflow.com/questions/20467179/git-push-rejected-non-fast-forward
 혹은 
 
 ```
+//git의 캐시가 문제가 되는거라 아래 명령어로 캐시 내용을 전부 삭제후 다시 add All해서 커밋하시면 됩니다
+
 git rm -r --cached .
 git add .
 git commit -m "fixed untracked files"
