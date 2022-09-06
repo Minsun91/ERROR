@@ -73,3 +73,12 @@ git commit -m "fixed untracked files"
 ```
 간단히 끝 ⭐️
 
+---
+
+### git conflict 해결 후 (vsc)
+```
+git add 충돌파일
+git merge --contine
+```
+
+참조: https://velog.io/@younoah/git-conflict-%EC%B6%A9%EB%8F%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0
